@@ -16,7 +16,6 @@ jobs:
       with:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_TOKEN }}
-    - name: Build and push to dockerhub (<username>/docker-getting-started)
     - name: Build and push Docker images
       uses: docker/build-push-action@v3.3.0
       with:
