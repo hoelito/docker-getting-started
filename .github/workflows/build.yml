@@ -21,4 +21,5 @@ jobs:
       with:
          file: hoelito/docker-getting-started 
          push: true
+         tags: hoelito/app:latest
  
