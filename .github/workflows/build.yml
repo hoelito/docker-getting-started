@@ -20,5 +20,5 @@ jobs:
       uses: docker/build-push-action@v3.3.0
       with:
          push: true
-         tags: hoelito/getting-started:tpcesi
+         tags: ${{ secrets.DOCKERHUB_USERNAME }}/getting-started:tpcesi
  
