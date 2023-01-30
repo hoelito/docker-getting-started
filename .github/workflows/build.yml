@@ -20,5 +20,5 @@ jobs:
       uses: docker/build-push-action@v3.3.0
       with:
          push: true
-         tags: hoelito/getting-started:latest
+         tags: hoelito/getting-started:tpcesi
  
